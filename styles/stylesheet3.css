@@ -1,0 +1,92 @@
+body {
+/* change background, and set global font family. */
+    background-color:	#008080 ; 
+	font-family: Georgia;
+	padding: 1%
+}
+
+.content-wrapper {
+  /* center on page, set width */
+  
+  margin-right: auto;
+  margin-left: auto;
+  max-width 10000px
+  padding-right: 30px;
+  padding-left:10px;
+}
+
+
+header h1 {
+  /* increase header, Change font family to Times and center */
+    font-size: 4em;
+    font-family: times;
+    background-color:#660000 ;
+    color: #DDA0DD;
+    margin: 1em 2em 2em 1em;
+    text-align: center;
+	}
+
+.main-nav li {
+
+
+    float: left;
+    list-style-type: none;
+    background-color: #00bfff;
+    border-right: 3px solid black;
+    padding: 1.0em;
+    font-family: ;
+    width: 1.0 em;
+    color:#cc0000 ;
+    text-align: center;
+	border-style: dotted;
+	position: 4em;
+  
+}
+
+a {
+    color: #99ccff;
+}
+
+aside {
+
+    float: auto;
+}
+
+
+aside li {
+  
+    clear: both;
+    list-style-type: none;
+    background-color: #0073e6;
+    padding: 2em;
+    font-family: Gill Sans Extrabold, sans-serif;
+    width: 1.5em;
+    height: 1.5em;
+    float: right;
+    text-align: center;
+    
+}
+
+article {
+  /* background-color, change -float center, font-family */
+    background-color: #FFFFCC;
+    font-family: times;
+    margin: auto;
+	float: auto;
+}
+
+article figcaption {
+    font-size: .1.5em;
+    text-align: center;
+    padding:.20%;
+}
+
+
+
+footer {
+   /* make and center links */
+    margin: auto;
+    width: 20%;
+    background-color: #00bfff;
+    padding: 0em 20em 0em;
+}

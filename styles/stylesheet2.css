@@ -1,0 +1,92 @@
+body {
+/* change background */
+    background-color: #80dfff;
+	
+	
+}
+ /* set page and width */
+.content-wrapper {
+	padding: 0% 0;
+    border style-type: solid;
+	width: 40%
+	
+ 
+}
+
+
+header h1 {
+  /*increase and color, change font to Times and center */
+    font-size: 30px;
+    font-family: Times;
+    background-color: #608f9f;
+    margin: 1em 2em 2em 2em;
+    text-align: center;
+	}
+
+.main-nav li {
+
+ /* different background color, border black on nav element, float links, center content within the links and width */
+    float: right;
+    list-style-type: none;
+    background-color: #06bcf9;
+    border-right: 3px solid black;
+    padding: 1.5em;
+    font-family: veranda;
+    width: 1em;
+    color: #06bcf9;
+    text-align: center;
+  
+}
+
+a {
+    color: black;
+}
+
+aside {
+
+    float: center;
+}
+
+aside li {
+  
+    clear: left;
+    list-style-type: none;
+    background-color: #668c99;
+    padding: 1em;
+    font-family: times;
+    width: 1.5em;
+    height:1.5em;
+    text-align: center;
+	border: 3px solid #000000;
+    
+}
+
+article {
+  /* background-color, auto, change font family */
+    background-color: #9f1aff;
+    font-family: times;
+    margin: auto;
+	float: auto;
+}
+
+article figcaption {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 100px;
+}
+
+figure img {
+	
+display: block;
+margin-left: auto;
+margin-right: auto;	
+}
+
+footer {
+   /* float images, make and center links */
+    margin: auto;
+    width: 100%;
+    background-color: #4d99b3;
+    padding: 2em 1em 1em 2 em;
+	float: right;
+}

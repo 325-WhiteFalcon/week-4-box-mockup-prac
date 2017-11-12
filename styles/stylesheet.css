@@ -1,0 +1,85 @@
+body {
+/* change background, and set global font family. */
+    background-color: #F0FFF0; 
+	font-family: times;
+}
+
+.content-wrapper {
+  /* Center on page, set width */
+}
+
+
+header h1 {
+  /*  color size,  change font family to times and center */
+    font-size: 4em;
+    font-family: times;
+    background-color: #DCDCDC;
+    color: #DDA0DD;
+    margin: 1em 2em 2em 2em;
+    text-align: center;
+	}
+
+.main-nav li {
+ /* Change background color, border black on each nav element. make and float links, center content within the links. width, change font family & color */
+    float: left;
+    list-style-type: none;
+    background-color: blue;
+    border-right: 3px solid black;
+    padding: 3em;
+    font-family: ;
+    width: 5 em;
+    color: blue;
+    text-align: center;
+  
+}
+
+a {
+    color: lightgray;
+}
+
+aside {
+
+    float: center;
+}
+
+
+aside li {
+  
+    clear: both;
+    list-style-type: none;
+    background-color: #668c99;
+    padding: 2em;
+    font-family: times;
+    width: 2.5em;
+    height: 2.5em;
+    float: right;
+    text-align: center;
+    
+}
+
+article {
+  /* background-color, float center, font family */
+    background-color: #FFFFCC;
+    font-family: times;
+    margin: auto;
+	float: auto;
+}
+
+article figcaption {
+    font-size: .75em;
+    text-align: right;
+    padding: 100px;
+}
+
+figure img {
+
+    margin: AUTO;
+}
+
+footer {
+   /* float images, make and center links */
+    margin: auto;
+    width: 20%;
+    background-color: #00bfff;
+    padding: 0em 50em 0em;
+}
